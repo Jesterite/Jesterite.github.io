@@ -9,23 +9,40 @@
     <div class="banner">
         <div class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="https://jesterite.github.io/">Home</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
             </ul>
         </div>
 
         <div class="content">
-            <div class="logo"><img src="https://cdn.discordapp.com/attachments/1164662039227146292/1164676737251155998/EE.png?ex=654414bc&is=65319fbc&hm=620f72a8cfed09f5f3e52c8e53e9df46916b2782e1b587288e3612e25c5d4f07&" class="logo"></div>
+            <div class="logo"><img src="css/images/EE.png" class="logo"></div>
             <h1>Jesterite</h1>
-            <p>My Handles</p>
+            <p>Copyright 2023 Jesterite</p>
 
             <div>
-                <button type="button">Github</button>
-                <button type="button">Discord</button>
+                <button class="btn1" onclick="redirectToGitHub()">
+                    <img src="css/images/Github.png" class="GithubImg">
+                </button>
+                <button class="btn2" onclick="redirectToDiscord()">
+                    <img src="css/images/Discord.png" class="DiscordImg">
+                </button>
             </div>
 
         </div>
     </div>
+
+    <script>
+
+function redirectToGitHub() {
+            window.location.href = "https://github.com/jesterite";
+        }
+
+        function redirectToDiscord() {
+            window.location.href = "https://discord.gg/eSpaHAHxhQ";
+        }
+        
+
+    </script>
 </body>
 
 </html>
